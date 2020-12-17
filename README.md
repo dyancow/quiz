@@ -2,6 +2,22 @@
 
 [![exercise status: released](https://img.shields.io/badge/exercise%20status-released-green.svg?style=for-the-badge)](https://gophercises.com/exercises/quiz)
 
+## D's Implementation
+Completed both parts. Although my take on part II is different because my timer runs for each 
+question asked. Also, the quiz exclusively reads from problems.csv at the moment. 
+Can run on a system with go installed by running with the default timer value of 3 seconds:
+```
+    go run quiz.go
+```
+To do a custom timeout between questions, like 10 seconds, for example (only ints):
+```
+    go run quiz.go -limit=10
+```
+
+Future:
+- Unit Testing for more problem types
+- White space checking etc
+
 ## Exercise details
 
 This exercise is broken into two parts to help simplify the process of explaining it as well as to make it easier to solve. The second part is harder than the first, so if you get stuck feel free to move on to another problem then come back to part 2 later.
